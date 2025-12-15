@@ -20,3 +20,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT_NUM }}
         protocol: ${{ secrets.PROTOCOL }}
+        local-dir: "./www/"
+        server-dir: "./examen114/"
+
